@@ -14,7 +14,7 @@ while True:
         print("everything, the bodies of the soldiers are everywhere.")
         answer = input("press to continue")
         print("Suddenly the giant dragon came to you, after smelling your scent from afar")
-        print("Ahhhhhhh he started screaming, looks like he's been hungry for a long time and now he's found his food.")
+        print("Ahhhhhhh he started screaming, looks like he's been hungry for a long time and now he found his food.")
         print("...........................")
         print("You have no choice now but to attack him, choose your strike")
         print("1-Normal attack 10 dmg")
@@ -28,6 +28,7 @@ while True:
         print("9-ultimate attack 40 dmg (you can use it only for one time!)")
         print("10-special attack 20 dmg")
         print("...........................")
+        print("dragon health is 70")
         answer = input("chose the number of your attack")
         #path 1 choice 1 (win)
         if answer == "9":
@@ -41,8 +42,10 @@ while True:
             print("5-magic attack 30 dmg")
             print("6-debuff (heal 10 dmg)")
             print("7-fire attack 13 dmg")
-            print("8-counter attack (20 dmg)")
-            print("10-special attack 20 dmg (you can use it only for one time!)")
+            print("8-counter attack 20 dmg")
+            print("9-special attack 20 dmg ")
+            print("...........................")
+            print("dragon health is 30")
             print("...........................")
             answer = input("chose the number of your attack")
             if answer == "5":
@@ -92,7 +95,9 @@ while True:
             print("7-fire attack 13 dmg")
             print("8-counter attack (20 dmg)")
             print("9-ultimate attack 40 dmg (you can use it only for one time!)")
-            print("10-special attack 20 dmg (you can use it only for one time!)")
+            print("10-special attack 20 dmg ")
+            print("...........................")
+            print("dragon health is 40")
             print("...........................")
             answer = input("chose the number of your attack:") 
             if answer == "9":
@@ -142,8 +147,8 @@ while True:
             print("6-debuff (heal 10 dmg)")
             print("7-fire attack 13 dmg")
             print("8-counter attack (20 dmg)")
-            print("9-ultimate attack 40 dmg (you can use it only for one time!)")
-            print("10-special attack 20 dmg (you can use it only for one time!)")
+            print("9-ultimate attack 40 dmg + 20 extra!! (you can use it only for one time!)")
+            print("10-special attack 20 dmg")
             print("...........................") 
             answer = input("chose the number of your attack")
             if answer == "9":
@@ -180,7 +185,6 @@ while True:
                         if  total >= 50:
                             print("it is more than what you can")
             else:
-                print("It was a weak attack, you lost the battle") 
-                break    
+                print("It was a weak attack, you lost the battle")     
     else:
         print("you lost" , naam)    
