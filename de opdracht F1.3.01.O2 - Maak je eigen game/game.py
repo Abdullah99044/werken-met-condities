@@ -29,9 +29,10 @@ while True:
         print("10-special attack 20 dmg")
         print("...........................")
         print("dragon health is 70")
-        answer = input("chose the number of your attack")
+        answer = input("chose the number of your attack:")
         #path 1 choice 1 (win)
         if answer == "9":
+            print("...........................")
             print("The dragon get dammaged!! , hit hem again with a powerfull attack or you will die. ")
             print("...........................")
             print("You have no choice now but to attack him, choose your strike")
@@ -47,7 +48,7 @@ while True:
             print("...........................")
             print("dragon health is 30")
             print("...........................")
-            answer = input("chose the number of your attack")
+            answer = input("chose the number of your attack:")
             if answer == "5":
                 print("Well done, you killed the giant dragon and liberated the village,")
                 print(" the generations will remember you and your family will be proud of you.......")
@@ -79,8 +80,11 @@ while True:
                         break
                     else:
                         if  total > 50:
+                            print("..................................")
                             print("it is more than what you can carry")
+                            print("..................................")
             else:
+                print(".........................................")
                 print("It was a weak strike, you lost the battle") 
         elif answer == "5":
             print("The dragon get dammaged!! , hit hem again with a powerfull attack or you will die. ")
@@ -101,6 +105,7 @@ while True:
             print("...........................")
             answer = input("chose the number of your attack:") 
             if answer == "9":
+                print(".............................")
                 print("Well done" ,naam)  
                 print("you killed the giant dragon and liberated the village,")
                 print(" the generations will remember you and your family will be proud of you.......")
@@ -134,9 +139,11 @@ while True:
                         if  total > 50:
                             print("it is more than what you can")
             else:
+                print(".........................................")
                 print("It was a weak attack, you lost the battle") 
         #path 2
         else:
+            print("...........................")
             print("It was a weak attack, you have to choose your attack carefully again or you will die!") 
             print("...........................")  
             print("1-Normal attack 10 dmg")
@@ -150,7 +157,7 @@ while True:
             print("9-ultimate attack 40 dmg + 20 extra!! (you can use it only for one time!)")
             print("10-special attack 20 dmg")
             print("...........................") 
-            answer = input("chose the number of your attack")
+            answer = input("chose the number of your attack:")
             if answer == "9":
                 print("Well done" ,naam)  
                 print("you killed the giant dragon and liberated the village,")
@@ -185,6 +192,9 @@ while True:
                         if  total >= 50:
                             print("it is more than what you can")
             else:
+                print("..........................................")
                 print("It was a weak attack, you lost the battle")     
     else:
-        print("you lost" , naam)    
+        print("....................")
+        print("you lost" , naam)   
+        
