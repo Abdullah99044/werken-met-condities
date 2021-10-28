@@ -85,7 +85,8 @@ while True:
                             print("..................................")
             else:
                 print(".........................................")
-                print("It was a weak strike, you lost the battle") 
+                print("It was a weak strike, you lost the battle")
+                print("Game over!") 
         elif answer == "5":
             print("The dragon get dammaged!! , hit hem again with a powerfull attack or you will die. ")
             print("...........................")  
@@ -141,6 +142,7 @@ while True:
             else:
                 print(".........................................")
                 print("It was a weak attack, you lost the battle") 
+                print("Game over!")
         #path 2
         else:
             print("...........................")
@@ -193,7 +195,8 @@ while True:
                             print("it is more than what you can")
             else:
                 print("..........................................")
-                print("It was a weak attack, you lost the battle")     
+                print("It was a weak attack, you lost the battle") 
+                print("Game over!")    
     else:
         print("....................")
         print("you lost" , naam)   
